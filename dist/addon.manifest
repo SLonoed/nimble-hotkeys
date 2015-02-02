@@ -1,0 +1,10 @@
+{
+  "id": "nimble-hotkeys",
+  "js": "addon.js",
+  "css": "addon.css",
+  "siteRegexp": "*.nimble.com",
+  "siteName":"Nimble",
+  "title":"Hotkeys for Nimble",
+  "shortDescription":"Add hotkeys for Nimble",
+  "description": "./addon_description.md"
+}

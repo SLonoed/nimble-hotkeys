@@ -1,0 +1,57 @@
+.taist-nimble-hotkeys-help- {
+    &wrapper {
+        display: none;
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 10000;
+        background: rgba(0, 0, 0, 0.5);
+
+    }
+
+    &wrapper&wrapper-visible {
+        display: block;
+    }
+
+    &container {
+        width: 400px;
+        margin: 0 auto;
+        background: #ffffff;
+        transition: margin .3s ease-in;
+    }
+
+    &header, &content {
+        padding: 20px;
+    }
+
+    &header {
+        padding: 4px 20px;
+        border-bottom: 1px solid rgb(232, 232, 232);
+    }
+
+    &close {
+        float: right;
+    }
+
+    &list {
+        list-style: none;
+        padding: 0;
+    }
+
+    &key {
+        background: #f3f3f3;
+        border-radius: 3px;
+        color: #212121;
+        display: inline-block;
+        font-weight: bold;
+        min-width: .7em;
+        padding: 2px 4px;
+        text-align: center;
+    }
+
+    &li {
+        margin-bottom: 0.4em;
+    }
+}

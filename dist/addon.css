@@ -1,0 +1,47 @@
+.taist-nimble-hotkeys-help-wrapper {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10000;
+  background: rgba(0, 0, 0, 0.5);
+}
+.taist-nimble-hotkeys-help-wrapper.taist-nimble-hotkeys-help-wrapper-visible {
+  display: block;
+}
+.taist-nimble-hotkeys-help-container {
+  width: 400px;
+  margin: 0 auto;
+  background: #ffffff;
+  transition: margin 0.3s ease-in;
+}
+.taist-nimble-hotkeys-help-header,
+.taist-nimble-hotkeys-help-content {
+  padding: 20px;
+}
+.taist-nimble-hotkeys-help-header {
+  padding: 4px 20px;
+  border-bottom: 1px solid #e8e8e8;
+}
+.taist-nimble-hotkeys-help-close {
+  float: right;
+}
+.taist-nimble-hotkeys-help-list {
+  list-style: none;
+  padding: 0;
+}
+.taist-nimble-hotkeys-help-key {
+  background: #f3f3f3;
+  border-radius: 3px;
+  color: #212121;
+  display: inline-block;
+  font-weight: bold;
+  min-width: .7em;
+  padding: 2px 4px;
+  text-align: center;
+}
+.taist-nimble-hotkeys-help-li {
+  margin-bottom: 0.4em;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "nimble-hotkeys",
+  "version": "0.0.1",
+  "author": "Dmitry Manannikov",
+  "description": "Nimble hotkeys",
+  "devDependencies": {
+    "browserify": "~4.1.5",
+    "grunt": "~0.4.0",
+    "grunt-browserify": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-less": "^1.0.0"
+  }
+}
